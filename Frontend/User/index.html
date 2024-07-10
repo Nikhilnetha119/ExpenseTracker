@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    
+    <h1>Expense Tracker</h1>
+
+    <form id ="expenseForm">
+        <input type="text" name="exp"name="exp" id="exp" placeholder="Expense">
+        <input type="number" name="amt" name="amt" id="amt" placeholder="Amount">
+        <input type="text" name="desc" name="desc" id="desc" placeholder="Description">
+
+        <button type="submit">SUBMIT</button>
+    </form>
+    <hr>
+
+    <div id="expenseList">
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

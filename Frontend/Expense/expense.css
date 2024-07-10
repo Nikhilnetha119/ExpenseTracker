@@ -1,0 +1,90 @@
+
+.container{
+    width: 550px !important;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+
+    color:rgb(6, 1, 26);
+    background-color: rgb(155, 205, 177);
+    font-weight: bold;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+}
+
+.list-container {
+        margin-top: 30px;
+        padding: 20px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+}
+.navbar{
+    background-color: rgb(155, 205, 177) !important;   
+}
+#home,.button-container,#logout,#leaderboard,#downloadExpense {
+    
+    background-color: rgb(215, 236, 224);
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    width: fit-content;
+}
+#home:hover,.button-container:hover , #logout:hover, #leaderboard:hover,#downloadExpense:hover{
+    background-color: rgb(173, 186, 178);
+}
+
+#rzp-btn{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+#myExpenseList{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic;
+    width: 550px !important;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(215, 236, 224);
+    list-style:none;
+    padding-left:0;
+
+}
+li{
+    margin: 20px;
+    color: rgb(2, 30, 2);
+}
+
+#myExpenseList>h3{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(155, 205, 177);
+    text-align: center;
+}
+
+#delete:hover{
+    background-color: rgb(191, 212, 200);
+    color: black;
+}
+
+#delete{
+    background-color: rgb(132, 179, 151);
+    color:rgb(31, 29, 29)
+}
+
+#add:hover{
+    background-color: rgb(139, 131, 131);
+    color:black;
+    font-weight: bold;
+}
